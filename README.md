@@ -17,6 +17,8 @@ python main.py /home/zhangzhaoyu --dist-rank 1
 暂时不想弄了,发现一个更好用的东西.
 
 ### 参考
-https://github.com/narumiruna/pytorch-distributed-example
+https://github.com/narumiruna/pytorch-distributed-example  
+
+
 https://github.com/uber/horovod
 
