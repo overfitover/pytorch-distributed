@@ -6,6 +6,9 @@ python main.py /home/zhangzhaoyu --dist-rank 0
 
 python main.py /home/zhangzhaoyu --dist-rank 1
 
+**注意**
+需要将所有的rank都开终端执行一遍。不然rank0 会等待其他rank执行。
+
 ## 初始化方法可以执行,三种初始化方式在init_examples里面.
 
 ## simple_demo里面是一些小例子,　可以跑起来.　
@@ -14,6 +17,7 @@ python main.py /home/zhangzhaoyu --dist-rank 1
 
 ## main.py 函数
 跑别人的demo的时候init有问题.总是在init卡着.
+这就是没有跑完所有的ｒａｎｋ的后果。
 暂时不想弄了,发现一个更好用的东西.
 
 ### 参考
